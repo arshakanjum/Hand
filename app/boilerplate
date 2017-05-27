@@ -1,0 +1,46 @@
+constructor(props) {
+      super(props);
+      this.state = {
+        loader:true,
+        spaces:'',
+        gospace:false,
+        spaceid:''
+      };
+    }
+
+fetchData() {
+      let lurl = 'http://35.154.25.19/home';
+      fetch(lurl)
+      .then((response) => response.json())
+      .then((responseJson) => { this.setState({ spaces: responseJson, loader: false }); })
+      .catch((error) => { console.error(error); });
+    }
+
+<List dataArray={this.state.spaces }
+                      renderRow={ (space) =>
+                        <Card onPress={() => {this.setState({ spaceid: space.id, gospace: true });} }>
+                          <CardItem cardBody onPress={() => {this.setState({ spaceid: space.id, gospace: true });} }>
+                              <Image source={{uri: space.image}} style={{width: window.width, height: 200}} resizeMode={'cover'}>
+                                 <Text  style={{backgroundColor: '#e57373', color:'#fff', marginTop:170, marginLeft:5, width:115, paddingLeft:10, height:25, paddingBottom:3, fontWeight: "bold"}}>10 Seats Left</Text>
+                                 <Icon name='md-locate' style={{color: '#e57373', marginTop:-30, marginLeft:window.width-35, fontSize:30}} />
+                              </Image>
+                          </CardItem>
+                          <CardItem onPress={() => {this.setState({ spaceid: space.id, gospace: true });} }>
+                             <Body style={{alignItems:'center'}}>
+                               <Text>{space.name}</Text>
+                               <Text note style={{paddingLeft:15}}>{space.street}</Text>
+                             </Body>
+                           </CardItem>
+                        </Card>
+                      } />
+
+                      postCat()
+                         {
+                           fetch('http://192.168.0.22:3000/categories.json', {
+                         method: 'POST',
+                         headers: { 'Accept': 'application/json', 'Content-Type': 'application/json', },
+                         body: JSON.stringify({
+                             cname:this.state.fname
+                         })
+                       })
+                       }

@@ -1,0 +1,2005 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-81a59bf26d881d29286674f6deefe779c444382fff322085b50ba455460ccae5.css" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-4ca44604c95fff89a2f665455fca80008c94339fa783060ee8439d1b2fa18774.css" media="all" rel="stylesheet" />
+  
+  
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-537c466d44a69d38c4bd60c2fd2955373ef96d051bd97b2ad30ed039acc97bff.css" media="all" rel="stylesheet" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - airbnb/react-native-maps: React Native Mapview component for iOS + Android</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars2.githubusercontent.com/u/698437?v=3&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="airbnb/react-native-maps" property="og:title" /><meta content="https://github.com/airbnb/react-native-maps" property="og:url" /><meta content="react-native-maps - React Native Mapview component for iOS + Android" property="og:description" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="75B9:400F:70A6A0:B00854:590A24B0" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="75B9:400F:70A6A0:B00854:590A24B0" name="octolytics-dimension-request_id" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" name="analytics-location" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ODVkOWRhMDgzYWFhNTUzMTk3ODJlZmNkMmQyZTNhMWM3ZTAzMDM0MTU0M2I2NTA5MWVlZjA1ZTg5YmM2ZGQ2MHx7InJlbW90ZV9hZGRyZXNzIjoiMTE2LjY4LjEyMy4xMjgiLCJyZXF1ZXN0X2lkIjoiNzVCOTo0MDBGOjcwQTZBMDpCMDA4NTQ6NTkwQTI0QjAiLCJ0aW1lc3RhbXAiOjE0OTM4MzY5NzcsImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+
+  <meta name="html-safe-nonce" content="03f98b154196e821e926893f7a992266dfa34288">
+
+  <meta http-equiv="x-pjax-version" content="5064a66a000e18e46b0972ba415c7c3d">
+  
+
+    
+  <meta name="description" content="react-native-maps - React Native Mapview component for iOS + Android">
+  <meta name="go-import" content="github.com/airbnb/react-native-maps git https://github.com/airbnb/react-native-maps.git">
+
+  <meta content="698437" name="octolytics-dimension-user_id" /><meta content="airbnb" name="octolytics-dimension-user_login" /><meta content="48764652" name="octolytics-dimension-repository_id" /><meta content="airbnb/react-native-maps" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="48764652" name="octolytics-dimension-repository_network_root_id" /><meta content="airbnb/react-native-maps" name="octolytics-dimension-repository_network_root_nwo" />
+        <link href="https://github.com/airbnb/react-native-maps/commits/master.atom" rel="alternate" title="Recent Commits to react-native-maps:master" type="application/atom+xml">
+
+
+    <link rel="canonical" href="https://github.com/airbnb/react-native-maps" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+          <header class="site-header js-details-container Details" role="banner">
+  <div class="container-responsive">
+    <a class="header-logo-invertocat" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+    </a>
+
+    <button class="btn-link float-right site-header-toggle js-details-target" type="button" aria-label="Toggle navigation">
+      <svg aria-hidden="true" class="octicon octicon-three-bars" height="24" version="1.1" viewBox="0 0 12 16" width="18"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+    </button>
+
+    <div class="site-header-menu">
+      <nav class="site-header-nav">
+        <a href="/features" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features">
+          Features
+</a>        <a href="/business" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business">
+          Business
+</a>        <a href="/explore" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship /showcases /explore">
+          Explore
+</a>        <a href="/pricing" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing">
+          Pricing
+</a>      </nav>
+
+      <div class="site-header-actions">
+          <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/airbnb/react-native-maps/search" class="js-site-search-form" data-scoped-search-url="/airbnb/react-native-maps/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="/airbnb/react-native-maps" class="header-search-scope no-underline">This repository</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+
+          <a class="text-bold site-header-link" href="/login?return_to=%2Fairbnb%2Freact-native-maps" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+            <span class="text-gray">or</span>
+            <a class="text-bold site-header-link" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  </div>
+
+  <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container>
+        
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+    <div class="container repohead-details-container">
+
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fairbnb%2Freact-native-maps"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/airbnb/react-native-maps/watchers"
+     aria-label="144 users are watching this repository">
+    144
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fairbnb%2Freact-native-maps"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/airbnb/react-native-maps/stargazers"
+      aria-label="4040 users starred this repository">
+      4,040
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fairbnb%2Freact-native-maps"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/airbnb/react-native-maps/network" class="social-count"
+       aria-label="953 users forked this repository">
+      953
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a href="/airbnb" class="url fn" rel="author">airbnb</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="/airbnb/react-native-maps" data-pjax="#js-repo-pjax-container">react-native-maps</a></strong>
+
+</h1>
+
+    </div>
+    <div class="container">
+      
+<nav class="reponav js-repo-nav js-sidenav-container-pjax"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/airbnb/react-native-maps" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /airbnb/react-native-maps" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="/airbnb/react-native-maps/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /airbnb/react-native-maps/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">516</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/airbnb/react-native-maps/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /airbnb/react-native-maps/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">40</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="/airbnb/react-native-maps/projects" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /airbnb/react-native-maps/projects">
+      <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a href="/airbnb/react-native-maps/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /airbnb/react-native-maps/pulse">
+    <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"/></svg>
+    Pulse
+</a>
+  <a href="/airbnb/react-native-maps/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /airbnb/react-native-maps/graphs">
+    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Graphs
+</a>
+
+</nav>
+
+    </div>
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+          
+<div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            React Native Mapview component for iOS + Android
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/airbnb/react-native-maps/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/search?q=topic%3Areact-native+org%3Aairbnb&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:react-native">
+        react-native
+      </a>
+      <a href="/search?q=topic%3Amaps+org%3Aairbnb&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:maps">
+        maps
+      </a>
+      <a href="/search?q=topic%3Agoogle-maps+org%3Aairbnb&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:google-maps">
+        google-maps
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+<div class="overall-summary overall-summary-bottomless">
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/airbnb/react-native-maps/commits/master">
+            <svg aria-hidden="true" class="octicon octicon-history" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+            <span class="num text-emphasized">
+              552
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/airbnb/react-native-maps/branches">
+          <svg aria-hidden="true" class="octicon octicon-git-branch" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <span class="num text-emphasized">
+            13
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/airbnb/react-native-maps/releases">
+          <svg aria-hidden="true" class="octicon octicon-tag" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+          <span class="num text-emphasized">
+            38
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+          <a href="/airbnb/react-native-maps/graphs/contributors">
+  <svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      121
+    </span>
+    contributors
+</a>
+
+      </li>
+        <li>
+          <a href="https://github.com/airbnb/react-native-maps/blob/master/LICENSE">
+            <svg aria-hidden="true" class="octicon octicon-law" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+              MIT
+          </a>
+        </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/airbnb/react-native-maps/search?l=javascript"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">40.0%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/airbnb/react-native-maps/search?l=objective-c"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#438eff;"></span>
+                <span class="lang">Objective-C</span>
+                <span class="percent">38.6%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/airbnb/react-native-maps/search?l=java"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#b07219;"></span>
+                <span class="lang">Java</span>
+                <span class="percent">20.3%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/airbnb/react-native-maps/search?l=ruby"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#701516;"></span>
+                <span class="lang">Ruby</span>
+                <span class="percent">1.1%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+    <span class="language-color" aria-label="JavaScript 40.0%" style="width:40.0%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+    <span class="language-color" aria-label="Objective-C 38.6%" style="width:38.6%; background-color:#438eff;" itemprop="keywords">Objective-C</span>
+    <span class="language-color" aria-label="Java 20.3%" style="width:20.3%; background-color:#b07219;" itemprop="keywords">Java</span>
+    <span class="language-color" aria-label="Ruby 1.1%" style="width:1.1%; background-color:#701516;" itemprop="keywords">Ruby</span>
+  </div>
+
+
+<div class="file-navigation in-mid-page">
+
+    <div class="select-menu get-repo-select-menu js-menu-container float-right select-menu-modal-right">
+  <button class="btn btn-sm btn-primary select-menu-button js-menu-target"
+    title="Clone or download this repository"
+    type="button" aria-label="Clone or download this repository" tabindex="0" aria-haspopup="true">
+    <span>Clone or download</span>
+  </button>
+
+  <div class="select-menu-modal-holder dropdown-menu-content js-menu-content">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container ">
+      <div class="clone-options https-clone-options">
+
+        <h4 class="mb-1">
+          Clone with HTTPS
+          <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+            <svg aria-hidden="true" class="octicon octicon-question" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+          </a>
+        </h4>
+        <p class="mb-2 get-repo-decription-text">
+          Use Git or checkout with SVN using the web URL.
+        </p>
+
+        <div class="input-group js-zeroclipboard-container">
+  <input type="text" class="form-control input-monospace input-sm js-zeroclipboard-target js-url-field" value="https://github.com/airbnb/react-native-maps.git" aria-label="Clone this repository at https://github.com/airbnb/react-native-maps.git" readonly>
+  <div class="input-group-button">
+    <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><svg aria-hidden="true" class="octicon octicon-clippy" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg></button>
+  </div>
+</div>
+
+      </div>
+
+
+      <div class="mt-2">
+        
+<a href="/airbnb/react-native-maps/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/airbnb/react-native-maps/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/airbnb/react-native-maps/tree/0.4-stable"
+               data-name="0.4-stable"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                0.4-stable
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/airbnb/react-native-maps/tree/0.10-stable"
+               data-name="0.10-stable"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                0.10-stable
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/airbnb/react-native-maps/tree/0.12-stable"
+               data-name="0.12-stable"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                0.12-stable
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/airbnb/react-native-maps/tree/bump-0.6.0"
+               data-name="bump-0.6.0"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                bump-0.6.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/airbnb/react-native-maps/tree/gil/google-rb"
+               data-name="gil/google-rb"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gil/google-rb
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/airbnb/react-native-maps/tree/gil/rn-0.34.1"
+               data-name="gil/rn-0.34.1"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gil/rn-0.34.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/airbnb/react-native-maps/tree/gil/v0.10.4"
+               data-name="gil/v0.10.4"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gil/v0.10.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/airbnb/react-native-maps/tree/gil4"
+               data-name="gil4"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gil4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/airbnb/react-native-maps/tree/install-doc-fix"
+               data-name="install-doc-fix"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                install-doc-fix
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/airbnb/react-native-maps/tree/marker-select"
+               data-name="marker-select"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                marker-select
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/airbnb/react-native-maps/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/airbnb/react-native-maps/tree/rn-29"
+               data-name="rn-29"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                rn-29
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/airbnb/react-native-maps/tree/spike/auto-changelog"
+               data-name="spike/auto-changelog"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                spike/auto-changelog
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.14.0"
+              data-name="v0.14.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.14.0">
+                v0.14.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.13.1"
+              data-name="v0.13.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.13.1">
+                v0.13.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.13.0"
+              data-name="v0.13.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.13.0">
+                v0.13.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.12.5"
+              data-name="v0.12.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.12.5">
+                v0.12.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.12.4"
+              data-name="v0.12.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.12.4">
+                v0.12.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.12.3"
+              data-name="v0.12.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.12.3">
+                v0.12.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.12.2"
+              data-name="v0.12.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.12.2">
+                v0.12.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.12.1"
+              data-name="v0.12.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.12.1">
+                v0.12.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.12.0"
+              data-name="v0.12.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.12.0">
+                v0.12.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.11.0"
+              data-name="v0.11.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.11.0">
+                v0.11.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.10.4"
+              data-name="v0.10.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.10.4">
+                v0.10.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.10.3"
+              data-name="v0.10.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.10.3">
+                v0.10.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.10.2"
+              data-name="v0.10.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.10.2">
+                v0.10.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.10.1"
+              data-name="v0.10.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.10.1">
+                v0.10.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.10.0"
+              data-name="v0.10.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.10.0">
+                v0.10.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.9.0"
+              data-name="v0.9.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.9.0">
+                v0.9.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.9.0-rc.0"
+              data-name="v0.9.0-rc.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.9.0-rc.0">
+                v0.9.0-rc.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.8.2"
+              data-name="v0.8.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.8.2">
+                v0.8.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.8.1"
+              data-name="v0.8.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.8.1">
+                v0.8.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.8.0"
+              data-name="v0.8.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.8.0">
+                v0.8.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.7.1"
+              data-name="v0.7.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.7.1">
+                v0.7.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.7.0"
+              data-name="v0.7.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.7.0">
+                v0.7.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.6.0"
+              data-name="v0.6.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.6.0">
+                v0.6.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.5.0"
+              data-name="v0.5.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.5.0">
+                v0.5.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.4.2"
+              data-name="v0.4.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.4.2">
+                v0.4.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.4.1"
+              data-name="v0.4.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.4.1">
+                v0.4.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.4.0"
+              data-name="v0.4.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.4.0">
+                v0.4.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.3.2"
+              data-name="v0.3.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.3.2">
+                v0.3.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.3.1"
+              data-name="v0.3.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.3.1">
+                v0.3.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.3.0"
+              data-name="v0.3.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.3.0">
+                v0.3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.2.3"
+              data-name="v0.2.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.2.3">
+                v0.2.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.2.2"
+              data-name="v0.2.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.2.2">
+                v0.2.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.2.1"
+              data-name="v0.2.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.2.1">
+                v0.2.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.2.0"
+              data-name="v0.2.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.2.0">
+                v0.2.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.1.3"
+              data-name="v0.1.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.1.3">
+                v0.1.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.1.2"
+              data-name="v0.1.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.1.2">
+                v0.1.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.1.1"
+              data-name="v0.1.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.1.1">
+                v0.1.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/airbnb/react-native-maps/tree/v0.1.0"
+              data-name="v0.1.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.1.0">
+                v0.1.0
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+      <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+        New pull request
+      </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="/airbnb/react-native-maps/commit/4849de52b2af70225c8bf3393fc3452f186acd07" data-pjax>
+        4849de5
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2017-04-05T01:41:01Z">Apr 4, 2017</relative-time></span>
+    </span>
+
+
+    <span class="commit-author-section">
+      <img alt="@lelandrichardson" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/1885623?v=3&amp;s=40" width="20" />
+      <a href="/lelandrichardson" class="user-mention" rel="contributor">lelandrichardson</a>
+    </span>
+
+        <a href="/airbnb/react-native-maps/commit/4849de52b2af70225c8bf3393fc3452f186acd07" class="message" data-pjax="true" title="v0.14.0">v0.14.0</a>
+    </span>
+
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a href="/airbnb/react-native-maps/tree/4849de52b2af70225c8bf3393fc3452f186acd07" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/tree/master/.bundle" class="js-navigation-open" id="409b5cda48df511dc6b221807daa32aa-6081990f08d8031ed340eba1ec0a15175052b86d" title=".bundle">.bundle</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/tree/master/docs" class="js-navigation-open" id="e3e2a9bfd88566b05001b02a3f51d286-86020cfc38000c92db487389ea084134a3b0bce6" title="docs">docs</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/a7426a84d7791918bd1777437aeeeb401b512fc1" class="message" data-pjax="true" title="Add android only note to showsIndoorLevelPicker">Add android only note to showsIndoorLevelPicker</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:20:27Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/tree/master/example" class="js-navigation-open" id="1a79a4d60de6718e8e5b326e338ae533-f3e6218843c6dda4eec0300a2eed176dcc2f0d05" title="example">example</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6553f68010f25c2237c60968be586a827bf2d3e6" class="message" data-pjax="true" title="Add postinstall script to disable modules for airgmaps">Add postinstall script to disable modules for airgmaps</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-29T23:45:44Z">Mar 29, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/tree/master/gradle/wrapper" class="js-navigation-open" id="04f339d50ad8be9d7500be3f70cd5d57-9b611f4ae98f92724eb8b7429a5bd1add262876e" title="This path skips through empty directories"><span class="simplified-path">gradle/</span>wrapper</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/tree/master/lib" class="js-navigation-open" id="e8acc63b1e238f3255c900eed37254b8-663f432bf04913e9542d0b34654b64eb523f431d" title="lib">lib</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/4849de52b2af70225c8bf3393fc3452f186acd07" class="message" data-pjax="true" title="v0.14.0">v0.14.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-05T01:41:01Z">Apr 5, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/tree/master/scripts" class="js-navigation-open" id="d6c5855a62cf32a4dadbc2831f0f295f-1a83a4fcbf2ce5a4928863e0d640807d048e736d" title="scripts">scripts</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/.babelrc" class="js-navigation-open" id="e56633f72ecc521128b3db6586074d2c-e4e14594b89ab4db9ce6de6514cae1753244f0b7" title=".babelrc">.babelrc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/.eslintignore" class="js-navigation-open" id="1b0fd5322de42e11c8786543f74c7c41-3c3629e647f5ddf82548912e337bea9826b434af" title=".eslintignore">.eslintignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/4a9a8cd3a4fde030a2968871990cef62b765a431" class="message" data-pjax="true" title="Add ESLint">Add ESLint</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-08-25T20:14:14Z">Aug 25, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/.eslintrc" class="js-navigation-open" id="1dc6ee56b778cd91e0327b52aaeaa1b9-7b768ff927e31b3b41b6c55c181f45ec8f8d6595" title=".eslintrc">.eslintrc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/.flowconfig" class="js-navigation-open" id="a9d0201e8c5bdc946e54218bb9206174-8eadd339f034f8fb82a5215743d098bb46d0604c" title=".flowconfig">.flowconfig</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/4e58c9f985203e2da65e9b972e3db3590f7bdfbe" class="message" data-pjax="true" title="Initial Commit">Initial Commit</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-12-29T20:00:37Z">Dec 29, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/.gitignore" class="js-navigation-open" id="a084b794bc0759e7a6b77810e01874f2-dc4d6bb16bba47cb13d48f828f840435a9806ad1" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/.npmignore" class="js-navigation-open" id="0fd4ef892d9d4990033701887c2f9bcc-33a9488b167e4391ad6297a1e43e56f7ec8a294e" title=".npmignore">.npmignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/f53ba8ff895a626889829762f0265a1d23186b9f" class="message" data-pjax="true" title="Add npmignore and remove example from package">Add npmignore and remove example from package</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-18T20:50:55Z">Jan 18, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/.travis.yml" class="js-navigation-open" id="354f30a63fb0907d4ad57269548329e3-34c6353e882dce2cf6231ac4ebff41bd446a8334" title=".travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/.watchmanconfig" class="js-navigation-open" id="0842d28d1bb3eda1763beb20e6ecc866-9e26dfeeb6e641a33dae4961196235bdb965b21b" title=".watchmanconfig">.watchmanconfig</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/4e58c9f985203e2da65e9b972e3db3590f7bdfbe" class="message" data-pjax="true" title="Initial Commit">Initial Commit</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-12-29T20:00:37Z">Dec 29, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/CHANGELOG.md" class="js-navigation-open" id="4ac32a78649ca5bdd8e0ba38b7006a1e-5c13e5ba077f956f8e17e12552d2b6e802509142" title="CHANGELOG.md">CHANGELOG.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/4849de52b2af70225c8bf3393fc3452f186acd07" class="message" data-pjax="true" title="v0.14.0">v0.14.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-05T01:41:01Z">Apr 5, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/Gemfile" class="js-navigation-open" id="8b7db4d5cc4b8f6dc8feb7030baa2478-e696ba58e52b294f4354fa0ea9501ed66f9f05e8" title="Gemfile">Gemfile</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/Gemfile.lock" class="js-navigation-open" id="e79a60dc6b85309ae70a6ea8261eaf95-9265653cd6a3b3f419be43452f44fb8f4cbf7b16" title="Gemfile.lock">Gemfile.lock</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/LICENSE" class="js-navigation-open" id="9879d6db96fd29134fc802214163b95a-6659955b088e2f88f5d2d3835bd8c58075e6ef13" itemprop="license" title="LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/cf29b15195451089e697487accd2059d1709b737" class="message" data-pjax="true" title="Update copyright.">Update copyright.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-11-16T23:21:08Z">Nov 16, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/README.md" class="js-navigation-open" id="04c6e90faac2675aa89e2176d2eec7d8-41139a4a027027b8a54d0c7fa0389118952b671c" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/d53d93eb9eb44d38a8f7757274edda4293085873" class="message" data-pjax="true" title="Improve documentation of customMapStyle (#1085)
+
+* Improve documentation of customMapStyle
+
+Readme addition described in https://github.com/airbnb/react-native-maps/issues/881.
+
+* Add customMapStyle prop to MapView doc">Improve documentation of customMapStyle (</a><a href="https://github.com/airbnb/react-native-maps/pull/1085" class="issue-link js-issue-link" data-url="https://github.com/airbnb/react-native-maps/issues/1085" data-id="211895008" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#1085</a><a href="/airbnb/react-native-maps/commit/d53d93eb9eb44d38a8f7757274edda4293085873" class="message" data-pjax="true" title="Improve documentation of customMapStyle (#1085)
+
+* Improve documentation of customMapStyle
+
+Readme addition described in https://github.com/airbnb/react-native-maps/issues/881.
+
+* Add customMapStyle prop to MapView doc">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-04T18:48:15Z">Mar 4, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/build.gradle" class="js-navigation-open" id="c197962302397baf3a4cc36463dce5ea-f89d2c59488132c531206f5d1ac2feea9803eb61" title="build.gradle">build.gradle</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/gradlew" class="js-navigation-open" id="36ffbd2ea7085cf19547193a7faf30c8-4453ccea33d960069d9137ee65f6b21fc65e7e92" title="gradlew">gradlew</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/gradlew.bat" class="js-navigation-open" id="c9b677a57d25a366595a35b2230d0502-e95643d6a2ca62258464e83c72f5156dc941c609" title="gradlew.bat">gradlew.bat</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/index.js" class="js-navigation-open" id="168726dbe96b3ce427e7fedce31bb0bc-207d0119dfc04cc13c1aa3d7ec7718dd4cc8c539" title="index.js">index.js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/package.json" class="js-navigation-open" id="b9cfc7f2cdf78a7f4b91a753d10865a2-9bbc2e1dd4188c2b40c19edf8aa976904218e6ea" title="package.json">package.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/4849de52b2af70225c8bf3393fc3452f186acd07" class="message" data-pjax="true" title="v0.14.0">v0.14.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-05T01:41:01Z">Apr 5, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/react-native-google-maps.podspec" class="js-navigation-open" id="e34aeb3daf111bee9df23f83bfc9c338-632da81d5cd3c5e520f7dc34fbc5cf5a65ead5d1" title="react-native-google-maps.podspec">react-native-google-maps.podspec</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/react-native-maps.podspec" class="js-navigation-open" id="b529b176988d2c4b78ec32270b5317c0-387265989f89e0d4afde79d6dfeaf6ebcbc2d24e" title="react-native-maps.podspec">react-native-maps.podspec</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/rn-cli.config.js" class="js-navigation-open" id="41fdc10e1b5862877e4afa7e9176ee09-d58725ef3dcbc30bdab92a9f4bf3fc1e39cccd40" title="rn-cli.config.js">rn-cli.config.js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/airbnb/react-native-maps/blob/master/settings.gradle" class="js-navigation-open" id="88b7c47e47b8ee65263b6784b86fa0a7-4196dd53b222861681e27400a2c7de7a675549da" title="settings.gradle">settings.gradle</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/airbnb/react-native-maps/commit/6cd30add6b95ae69f0fbdc2a14adfbc394ed2a1e" class="message" data-pjax="true" title="Restructure project">Restructure project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T23:11:52Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-react-native-maps-" class="anchor" href="#react-native-maps-" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>react-native-maps <a href="https://www.npmjs.com/package/react-native-maps"><img src="https://camo.githubusercontent.com/5b1e88392aebf90b019075d2ebea433649d9a598/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f72656163742d6e61746976652d6d6170732e7376673f7374796c653d666c6174" alt="npm version" data-canonical-src="https://img.shields.io/npm/v/react-native-maps.svg?style=flat" style="max-width:100%;"></a></h1>
+<p>React Native Map components for iOS + Android</p>
+<h2><a id="user-content-installation" class="anchor" href="#installation" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+<p>See <a href="/airbnb/react-native-maps/blob/master/docs/installation.md">Installation Instructions</a>.</p>
+<p>See <a href="/airbnb/react-native-maps/blob/master/docs/examples-setup.md">Setup Instructions for the Included Example Project</a>.</p>
+<h2><a id="user-content-compatibility" class="anchor" href="#compatibility" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compatibility</h2>
+<p>Due to the rapid changes being made in the React Native ecosystem, we are not officially going to
+support this module on anything but the latest version of React Native. With that said, we will do
+our best to stay compatible with older versions as much that is practical, and the peer dependency
+of this requirement is set to <code>"react-native": "*"</code> explicitly for this reason. If you are using
+an older version of React Native with this module though, some features may be buggy.</p>
+<h3><a id="user-content-note-about-react-requires" class="anchor" href="#note-about-react-requires" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Note about React requires</h3>
+<p>Since react-native 0.25.0, <code>React</code> should be required from <code>node_modules</code>.
+React Native versions from 0.18 should be working out of the box, for lower
+versions you should add <code>react</code> as a dependency in your <code>package.json</code>.</p>
+<h2><a id="user-content-component-api" class="anchor" href="#component-api" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Component API</h2>
+<p><a href="/airbnb/react-native-maps/blob/master/docs/mapview.md"><code>&lt;MapView /&gt;</code> Component API</a></p>
+<p><a href="/airbnb/react-native-maps/blob/master/docs/marker.md"><code>&lt;MapView.Marker /&gt;</code> Component API</a></p>
+<p><a href="/airbnb/react-native-maps/blob/master/docs/callout.md"><code>&lt;MapView.Callout /&gt;</code> Component API</a></p>
+<p><a href="/airbnb/react-native-maps/blob/master/docs/polygon.md"><code>&lt;MapView.Polygon /&gt;</code> Component API</a></p>
+<p><a href="/airbnb/react-native-maps/blob/master/docs/polyline.md"><code>&lt;MapView.Polyline /&gt;</code> Component API</a></p>
+<p><a href="/airbnb/react-native-maps/blob/master/docs/circle.md"><code>&lt;MapView.Circle /&gt;</code> Component API</a></p>
+<h2><a id="user-content-general-usage" class="anchor" href="#general-usage" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>General Usage</h2>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">import</span> <span class="pl-smi">MapView</span> <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>react-native-maps<span class="pl-pds">'</span></span>;</pre></div>
+<p>or</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> MapView <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>react-native-maps<span class="pl-pds">'</span></span>);</pre></div>
+<p>This MapView component is built so that features on the map (such as Markers, Polygons, etc.) are
+specified as children of the MapView itself. This provides an intuitive and react-like API for
+declaratively controlling features on the map.</p>
+<h3><a id="user-content-rendering-a-map-with-an-initial-region" class="anchor" href="#rendering-a-map-with-an-initial-region" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rendering a Map with an initial region</h3>
+<h2><a id="user-content-mapview" class="anchor" href="#mapview" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MapView</h2>
+<div class="highlight highlight-source-js-jsx"><pre>  &lt;<span class="pl-ent"><span class="pl-c1">MapView</span></span>
+    <span class="pl-e">initialRegion</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1">{</span>
+<span class="pl-s1"><span class="pl-c1">      <span class="pl-s">latitude</span>:</span> <span class="pl-c1">37.78825</span>,</span>
+<span class="pl-s1"><span class="pl-c1">      <span class="pl-s">longitude</span>:</span> <span class="pl-c1">-122.4324</span>,</span>
+<span class="pl-s1"><span class="pl-c1">      <span class="pl-s">latitudeDelta</span>:</span> <span class="pl-c1">0.0922</span>,</span>
+<span class="pl-s1"><span class="pl-c1">      <span class="pl-s">longitudeDelta</span>:</span> <span class="pl-c1">0.0421</span>,</span>
+<span class="pl-s1">    }</span><span class="pl-pse">}</span>
+  /&gt;</pre></div>
+<h3><a id="user-content-using-a-mapview-while-controlling-the-region-as-state" class="anchor" href="#using-a-mapview-while-controlling-the-region-as-state" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using a MapView while controlling the region as state</h3>
+<div class="highlight highlight-source-js-jsx"><pre><span class="pl-en">getInitialState</span>() {
+  <span class="pl-k">return</span> {
+<span class="pl-c1">    <span class="pl-s">region</span>:</span> {
+<span class="pl-c1">      <span class="pl-s">latitude</span>:</span> <span class="pl-c1">37.78825</span>,
+<span class="pl-c1">      <span class="pl-s">longitude</span>:</span> <span class="pl-c1">-122.4324</span>,
+<span class="pl-c1">      <span class="pl-s">latitudeDelta</span>:</span> <span class="pl-c1">0.0922</span>,
+<span class="pl-c1">      <span class="pl-s">longitudeDelta</span>:</span> <span class="pl-c1">0.0421</span>,
+    },
+  };
+}
+
+<span class="pl-en">onRegionChange</span>(<span class="pl-smi">region</span>) {
+<span class="pl-c1">  this</span><span class="pl-k">.</span><span class="pl-en">setState</span>({<span class="pl-smi"> region</span> });
+}
+
+<span class="pl-en">render</span>() {
+<span class="pl-k">  return</span> (
+    &lt;<span class="pl-ent"><span class="pl-c1">MapView</span></span>
+      <span class="pl-e">region</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">region</span></span><span class="pl-pse">}</span>
+      <span class="pl-e">onRegionChange</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">onRegionChange</span></span><span class="pl-pse">}</span>
+    /&gt;
+  );
+}</pre></div>
+<h3><a id="user-content-rendering-a-list-of-markers-on-a-map" class="anchor" href="#rendering-a-list-of-markers-on-a-map" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rendering a list of markers on a map</h3>
+<div class="highlight highlight-source-js-jsx"><pre>&lt;<span class="pl-ent"><span class="pl-c1">MapView</span></span>
+  <span class="pl-e">region</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">region</span></span><span class="pl-pse">}</span>
+  <span class="pl-e">onRegionChange</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">onRegionChange</span></span><span class="pl-pse">}</span>
+&gt;
+  <span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">markers</span><span class="pl-k">.</span><span class="pl-en">map</span>(<span class="pl-smi">marker</span> <span class="pl-k">=&gt;</span> (</span>
+<span class="pl-s1">    &lt;<span class="pl-ent"><span class="pl-c1">MapView.Marker</span></span></span>
+<span class="pl-s1">      <span class="pl-e">coordinate</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-smi">marker</span><span class="pl-k">.</span><span class="pl-smi">latlng</span></span><span class="pl-pse">}</span></span>
+<span class="pl-s1">      <span class="pl-e">title</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-smi">marker</span><span class="pl-k">.</span><span class="pl-smi">title</span></span><span class="pl-pse">}</span></span>
+<span class="pl-s1">      <span class="pl-e">description</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-smi">marker</span><span class="pl-k">.</span><span class="pl-smi">description</span></span><span class="pl-pse">}</span></span>
+<span class="pl-s1">    /&gt;</span>
+<span class="pl-s1">  ))</span><span class="pl-pse">}</span>
+&lt;/<span class="pl-ent"><span class="pl-c1">MapView</span></span>&gt;</pre></div>
+<h3><a id="user-content-rendering-a-marker-with-a-custom-view" class="anchor" href="#rendering-a-marker-with-a-custom-view" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rendering a Marker with a custom view</h3>
+<div class="highlight highlight-source-js-jsx"><pre>&lt;<span class="pl-ent"><span class="pl-c1">MapView.Marker</span></span> <span class="pl-e">coordinate</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-smi">marker</span><span class="pl-k">.</span><span class="pl-smi">latlng</span></span><span class="pl-pse">}</span>&gt;
+  &lt;<span class="pl-ent"><span class="pl-c1">MyCustomMarkerView</span></span> <span class="pl-pse">{</span><span class="pl-s1"><span class="pl-k">...</span><span class="pl-smi">marker</span></span><span class="pl-pse">}</span> /&gt;
+&lt;/<span class="pl-ent"><span class="pl-c1">MapView.Marker</span></span>&gt;</pre></div>
+<h3><a id="user-content-rendering-a-marker-with-a-custom-image" class="anchor" href="#rendering-a-marker-with-a-custom-image" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rendering a Marker with a custom image</h3>
+<div class="highlight highlight-source-js-jsx"><pre>&lt;<span class="pl-ent"><span class="pl-c1">MapView.Marker</span></span>
+  <span class="pl-e">coordinate</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-smi">marker</span><span class="pl-k">.</span><span class="pl-smi">latlng</span></span><span class="pl-pse">}</span>
+  <span class="pl-e">image</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-en">require</span>(<span class="pl-s"><span class="pl-pds">'</span>../assets/pin.png<span class="pl-pds">'</span></span>)</span><span class="pl-pse">}</span>
+/&gt;</pre></div>
+<h3><a id="user-content-rendering-a-custom-marker-with-a-custom-callout" class="anchor" href="#rendering-a-custom-marker-with-a-custom-callout" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rendering a custom Marker with a custom Callout</h3>
+<div class="highlight highlight-source-js-jsx"><pre>&lt;<span class="pl-ent"><span class="pl-c1">MapView.Marker</span></span> <span class="pl-e">coordinate</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-smi">marker</span><span class="pl-k">.</span><span class="pl-smi">latlng</span></span><span class="pl-pse">}</span>&gt;
+  &lt;<span class="pl-ent"><span class="pl-c1">MyCustomMarkerView</span></span> <span class="pl-pse">{</span><span class="pl-s1"><span class="pl-k">...</span><span class="pl-smi">marker</span></span><span class="pl-pse">}</span> /&gt;
+  &lt;<span class="pl-ent"><span class="pl-c1">MapView.Callout</span></span>&gt;
+    &lt;<span class="pl-ent"><span class="pl-c1">MyCustomCalloutView</span></span> <span class="pl-pse">{</span><span class="pl-s1"><span class="pl-k">...</span><span class="pl-smi">marker</span></span><span class="pl-pse">}</span> /&gt;
+  &lt;/<span class="pl-ent"><span class="pl-c1">MapView.Callout</span></span>&gt;
+&lt;/<span class="pl-ent"><span class="pl-c1">MapView.Marker</span></span>&gt;</pre></div>
+<h3><a id="user-content-draggable-markers" class="anchor" href="#draggable-markers" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Draggable Markers</h3>
+<div class="highlight highlight-source-js-jsx"><pre>&lt;<span class="pl-ent"><span class="pl-c1">MapView</span></span> <span class="pl-e">initialRegion</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-k">...</span></span><span class="pl-pse">}</span>&gt;
+  &lt;<span class="pl-ent"><span class="pl-c1">MapView.Marker</span></span> <span class="pl-e">draggable</span>
+    <span class="pl-e">coordinate</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">x</span></span><span class="pl-pse">}</span>
+    <span class="pl-e">onDragEnd</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1">(<span class="pl-smi">e</span>) <span class="pl-k">=&gt;</span><span class="pl-c1"> this</span><span class="pl-k">.</span><span class="pl-en">setState</span>({<span class="pl-c1"> <span class="pl-s">x</span>:</span><span class="pl-smi"> e</span><span class="pl-k">.</span><span class="pl-smi">nativeEvent</span><span class="pl-k">.</span><span class="pl-smi">coordinate</span> })</span><span class="pl-pse">}</span>
+  /&gt;
+&lt;/<span class="pl-ent"><span class="pl-c1">MapView</span></span>&gt;</pre></div>
+<h3><a id="user-content-using-a-custom-tile-overlay" class="anchor" href="#using-a-custom-tile-overlay" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using a custom Tile Overlay</h3>
+<div class="highlight highlight-source-js-jsx"><pre>&lt;<span class="pl-ent"><span class="pl-c1">MapView</span></span> 
+  <span class="pl-e">region</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">region</span></span><span class="pl-pse">}</span>
+  <span class="pl-e">onRegionChange</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">onRegionChange</span></span><span class="pl-pse">}</span>
+&gt;
+  &lt;<span class="pl-ent"><span class="pl-c1">MapView.UrlTile</span></span>
+<span class="pl-c"><span class="pl-c">   /**</span></span>
+<span class="pl-c">   * The url template of the tile server. The patterns {x} {y} {z} will be replaced at runtime</span>
+<span class="pl-c">   * For example, http://c.tile.openstreetmap.org/{z}/{x}/{y}.png</span>
+<span class="pl-c"><span class="pl-c">   */</span></span>
+    <span class="pl-e">urlTemplate</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">urlTemplate</span></span><span class="pl-pse">}</span>
+  /&gt;
+&lt;/<span class="pl-ent"><span class="pl-c1">MapView</span></span>&gt;</pre></div>
+<p>For Android: add the following line in your AndroidManifest.xml</p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">uses-permission</span> <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>android.permission.INTERNET<span class="pl-pds">"</span></span> /&gt;</pre></div>
+<p>For IOS: configure <a href="https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33">App Transport Security</a> in your app</p>
+<h3><a id="user-content-customizing-the-map-style" class="anchor" href="#customizing-the-map-style" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Customizing the map style</h3>
+<p>Create the json object, or download a generated one from the <a href="https://mapstyle.withgoogle.com/">google style generator</a>.</p>
+<div class="highlight highlight-source-js-jsx"><pre><span class="pl-c"><span class="pl-c">//</span> The generated json object</span>
+<span class="pl-smi">mapStyle</span><span class="pl-k"> =</span> [<span class="pl-k"> ...</span> ]
+
+<span class="pl-en">render</span>() {
+<span class="pl-k">  return</span> (
+    &lt;<span class="pl-ent"><span class="pl-c1">MapView</span></span>
+      <span class="pl-e">region</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">region</span></span><span class="pl-pse">}</span>
+      <span class="pl-e">onRegionChange</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">onRegionChange</span></span><span class="pl-pse">}</span>
+      <span class="pl-e">customMapStyle</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-smi">mapStyle</span></span><span class="pl-pse">}</span>
+    /&gt;
+  );
+}</pre></div>
+<p>For iOS, in addition to providing the <code>mapStyle</code> you will need to do the following</p>
+<div class="highlight highlight-source-js-jsx"><pre><span class="pl-k">import</span><span class="pl-smi"> MapView</span>, {<span class="pl-c1"> PROVIDER_GOOGLE</span> }<span class="pl-k"> from</span> <span class="pl-s"><span class="pl-pds">'</span>react-native-maps<span class="pl-pds">'</span></span>
+
+<span class="pl-c"><span class="pl-c">//</span> ...</span>
+
+&lt;<span class="pl-ent"><span class="pl-c1">MapView</span></span>
+  <span class="pl-e">provider</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">PROVIDER_GOOGLE</span></span><span class="pl-pse">}</span>
+  <span class="pl-e">customMapStyle</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-smi">MapStyle</span></span><span class="pl-pse">}</span>
+&gt;</pre></div>
+<p>Then add the AirGoogleMaps directory:</p>
+<p><a href="https://github.com/airbnb/react-native-maps/blob/1e71a21f39e7b88554852951f773c731c94680c9/docs/installation.md#ios">https://github.com/airbnb/react-native-maps/blob/1e71a21f39e7b88554852951f773c731c94680c9/docs/installation.md#ios</a></p>
+<p>An unoffical step-by-step guide is also available at <a href="https://gist.github.com/heron2014/e60fa003e9b117ce80d56bb1d5bfe9e0">https://gist.github.com/heron2014/e60fa003e9b117ce80d56bb1d5bfe9e0</a></p>
+<h2><a id="user-content-examples" class="anchor" href="#examples" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Examples</h2>
+<h3><a id="user-content-mapview-events" class="anchor" href="#mapview-events" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MapView Events</h3>
+<p>The <code>&lt;MapView /&gt;</code> component and its child components have several events that you can subscribe to.
+This example displays some of them in a log as a demonstration.</p>
+<p><a href="https://camo.githubusercontent.com/bcb60887b83b8b8b84aeacfdf8e2f20ce33bdba5/687474703a2f2f692e67697068792e636f6d2f336f365542706e63595141537532575457382e676966" target="_blank"><img src="https://camo.githubusercontent.com/bcb60887b83b8b8b84aeacfdf8e2f20ce33bdba5/687474703a2f2f692e67697068792e636f6d2f336f365542706e63595141537532575457382e676966" alt="" data-canonical-src="http://i.giphy.com/3o6UBpncYQASu2WTW8.gif" style="max-width:100%;"></a> <a href="https://camo.githubusercontent.com/769bc6f6acd2e736e76a6f5b7048e9558b208578/687474703a2f2f692e67697068792e636f6d2f78543737596476694c71746a6165635259412e676966" target="_blank"><img src="https://camo.githubusercontent.com/769bc6f6acd2e736e76a6f5b7048e9558b208578/687474703a2f2f692e67697068792e636f6d2f78543737596476694c71746a6165635259412e676966" alt="" data-canonical-src="http://i.giphy.com/xT77YdviLqtjaecRYA.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-tracking-region--location" class="anchor" href="#tracking-region--location" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tracking Region / Location</h3>
+<p><a href="https://camo.githubusercontent.com/32d70397b08fb63aa1eb6cad31983958036b060d/687474703a2f2f692e67697068792e636f6d2f336f3655426f50534c6c494b5132647637712e676966" target="_blank"><img src="https://camo.githubusercontent.com/32d70397b08fb63aa1eb6cad31983958036b060d/687474703a2f2f692e67697068792e636f6d2f336f3655426f50534c6c494b5132647637712e676966" alt="" data-canonical-src="http://i.giphy.com/3o6UBoPSLlIKQ2dv7q.gif" style="max-width:100%;"></a> <a href="https://camo.githubusercontent.com/3ec3eaaa8f44a0f79694b59fa3ecf8774b371cb9/687474703a2f2f692e67697068792e636f6d2f7854373758576a7145437664676a78396f412e676966" target="_blank"><img src="https://camo.githubusercontent.com/3ec3eaaa8f44a0f79694b59fa3ecf8774b371cb9/687474703a2f2f692e67697068792e636f6d2f7854373758576a7145437664676a78396f412e676966" alt="" data-canonical-src="http://i.giphy.com/xT77XWjqECvdgjx9oA.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-programmatically-changing-region" class="anchor" href="#programmatically-changing-region" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Programmatically Changing Region</h3>
+<p>One can change the mapview's position using refs and component methods, or by passing in an updated
+<code>region</code> prop.  The component methods will allow one to animate to a given position like the native
+API could.</p>
+<p><a href="https://camo.githubusercontent.com/efcb3b55b89229e0325651dba8f747248059f407/687474703a2f2f692e67697068792e636f6d2f336f36554237706f794236594a304b5057552e676966" target="_blank"><img src="https://camo.githubusercontent.com/efcb3b55b89229e0325651dba8f747248059f407/687474703a2f2f692e67697068792e636f6d2f336f36554237706f794236594a304b5057552e676966" alt="" data-canonical-src="http://i.giphy.com/3o6UB7poyB6YJ0KPWU.gif" style="max-width:100%;"></a> <a href="https://camo.githubusercontent.com/72c43ecd54ba454cc1813e8503f8fa97b101265b/687474703a2f2f692e67697068792e636f6d2f78543737596334774b33707a5a757345626d2e676966" target="_blank"><img src="https://camo.githubusercontent.com/72c43ecd54ba454cc1813e8503f8fa97b101265b/687474703a2f2f692e67697068792e636f6d2f78543737596334774b33707a5a757345626d2e676966" alt="" data-canonical-src="http://i.giphy.com/xT77Yc4wK3pzZusEbm.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-changing-the-style-of-the-map" class="anchor" href="#changing-the-style-of-the-map" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Changing the style of the map</h3>
+<p><a href="https://camo.githubusercontent.com/de51f0ede2cc5ba3aae8ffdabf7a5ec4dda4c5eb/687474703a2f2f692e696d6775722e636f6d2f61395771434c362e706e67" target="_blank"><img src="https://camo.githubusercontent.com/de51f0ede2cc5ba3aae8ffdabf7a5ec4dda4c5eb/687474703a2f2f692e696d6775722e636f6d2f61395771434c362e706e67" alt="" data-canonical-src="http://i.imgur.com/a9WqCL6.png" style="max-width:100%;"></a></p>
+<h3><a id="user-content-arbitrary-react-views-as-markers" class="anchor" href="#arbitrary-react-views-as-markers" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Arbitrary React Views as Markers</h3>
+<p><a href="https://camo.githubusercontent.com/0ad5eac5b87f2ff78f358fca79107a45030d8490/687474703a2f2f692e67697068792e636f6d2f336f3655426373434c6f4c51746b734a78652e676966" target="_blank"><img src="https://camo.githubusercontent.com/0ad5eac5b87f2ff78f358fca79107a45030d8490/687474703a2f2f692e67697068792e636f6d2f336f3655426373434c6f4c51746b734a78652e676966" alt="" data-canonical-src="http://i.giphy.com/3o6UBcsCLoLQtksJxe.gif" style="max-width:100%;"></a> <a href="https://camo.githubusercontent.com/dcb521223526078510b1708b97f1cdc2b5ad746a/687474703a2f2f692e67697068792e636f6d2f336f365542317147454d396a596e69334b4d2e676966" target="_blank"><img src="https://camo.githubusercontent.com/dcb521223526078510b1708b97f1cdc2b5ad746a/687474703a2f2f692e67697068792e636f6d2f336f365542317147454d396a596e69334b4d2e676966" alt="" data-canonical-src="http://i.giphy.com/3o6UB1qGEM9jYni3KM.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-using-the-mapview-with-the-animated-api" class="anchor" href="#using-the-mapview-with-the-animated-api" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using the MapView with the Animated API</h3>
+<p>The <code>&lt;MapView /&gt;</code> component can be made to work with the Animated API, having the entire <code>region</code> prop
+be declared as an animated value. This allows one to animate the zoom and position of the MapView along
+with other gestures, giving a nice feel.</p>
+<p>Further, Marker views can use the animated API to enhance the effect.</p>
+<p><a href="https://camo.githubusercontent.com/f9ecf127de1af38319fb46ddd4f7d421e46dc265/687474703a2f2f692e67697068792e636f6d2f78543737584d773949775336514176306e432e676966" target="_blank"><img src="https://camo.githubusercontent.com/f9ecf127de1af38319fb46ddd4f7d421e46dc265/687474703a2f2f692e67697068792e636f6d2f78543737584d773949775336514176306e432e676966" alt="" data-canonical-src="http://i.giphy.com/xT77XMw9IwS6QAv0nC.gif" style="max-width:100%;"></a> <a href="https://camo.githubusercontent.com/9b5fcde0cb8146672f54d39fc3c34bd2e1f7891f/687474703a2f2f692e67697068792e636f6d2f336f365542644751644d31476d566f4964712e676966" target="_blank"><img src="https://camo.githubusercontent.com/9b5fcde0cb8146672f54d39fc3c34bd2e1f7891f/687474703a2f2f692e67697068792e636f6d2f336f365542644751644d31476d566f4964712e676966" alt="" data-canonical-src="http://i.giphy.com/3o6UBdGQdM1GmVoIdq.gif" style="max-width:100%;"></a></p>
+<p>Issue: Since android needs to render its marker views as a bitmap, the animations APIs may not be
+compatible with the Marker views. Not sure if this can be worked around yet or not.</p>
+<p>Markers' coordinates can also be animated, as shown in this example:</p>
+<p><a href="https://camo.githubusercontent.com/afaf74443be872dcbae355844c1e9b2d9ddc1bbf/687474703a2f2f692e67697068792e636f6d2f7854636e54656c70314f77475075315768322e676966" target="_blank"><img src="https://camo.githubusercontent.com/afaf74443be872dcbae355844c1e9b2d9ddc1bbf/687474703a2f2f692e67697068792e636f6d2f7854636e54656c70314f77475075315768322e676966" alt="" data-canonical-src="http://i.giphy.com/xTcnTelp1OwGPu1Wh2.gif" style="max-width:100%;"></a> <a href="https://camo.githubusercontent.com/3b7466c238ae85a21e3efcc49aff5ca76aa2d783/687474703a2f2f692e67697068792e636f6d2f7854636e5436575670776c4369516e4657382e676966" target="_blank"><img src="https://camo.githubusercontent.com/3b7466c238ae85a21e3efcc49aff5ca76aa2d783/687474703a2f2f692e67697068792e636f6d2f7854636e5436575670776c4369516e4657382e676966" alt="" data-canonical-src="http://i.giphy.com/xTcnT6WVpwlCiQnFW8.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-polygon-creator" class="anchor" href="#polygon-creator" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Polygon Creator</h3>
+<p><a href="https://camo.githubusercontent.com/b4df4d4e73107561fb0ae89f4af8a3ce0e882450/687474703a2f2f692e67697068792e636f6d2f336f3655415a577151426b4f7a73384845342e676966" target="_blank"><img src="https://camo.githubusercontent.com/b4df4d4e73107561fb0ae89f4af8a3ce0e882450/687474703a2f2f692e67697068792e636f6d2f336f3655415a577151426b4f7a73384845342e676966" alt="" data-canonical-src="http://i.giphy.com/3o6UAZWqQBkOzs8HE4.gif" style="max-width:100%;"></a> <a href="https://camo.githubusercontent.com/5d38df39067ce1b3d1dd1ca8e1a383a37ae8214d/687474703a2f2f692e67697068792e636f6d2f785437375856425245724e5a6c337a7957512e676966" target="_blank"><img src="https://camo.githubusercontent.com/5d38df39067ce1b3d1dd1ca8e1a383a37ae8214d/687474703a2f2f692e67697068792e636f6d2f785437375856425245724e5a6c337a7957512e676966" alt="" data-canonical-src="http://i.giphy.com/xT77XVBRErNZl3zyWQ.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-other-overlays" class="anchor" href="#other-overlays" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other Overlays</h3>
+<p>So far, <code>&lt;Circle /&gt;</code>, <code>&lt;Polygon /&gt;</code>, and <code>&lt;Polyline /&gt;</code> are available to pass in as children to the
+<code>&lt;MapView /&gt;</code> component.</p>
+<p><a href="https://camo.githubusercontent.com/11f67075f35dc9017be226886bab8063cc993091/687474703a2f2f692e67697068792e636f6d2f78543737585a4348384a7045687a56634e472e676966" target="_blank"><img src="https://camo.githubusercontent.com/11f67075f35dc9017be226886bab8063cc993091/687474703a2f2f692e67697068792e636f6d2f78543737585a4348384a7045687a56634e472e676966" alt="" data-canonical-src="http://i.giphy.com/xT77XZCH8JpEhzVcNG.gif" style="max-width:100%;"></a> <a href="https://camo.githubusercontent.com/88956dd82fe8cee43f920c6ec34155f6bc6552d3/687474703a2f2f692e67697068792e636f6d2f78543737585a7941306159654f58356a73412e676966" target="_blank"><img src="https://camo.githubusercontent.com/88956dd82fe8cee43f920c6ec34155f6bc6552d3/687474703a2f2f692e67697068792e636f6d2f78543737585a7941306159654f58356a73412e676966" alt="" data-canonical-src="http://i.giphy.com/xT77XZyA0aYeOX5jsA.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-default-markers" class="anchor" href="#default-markers" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Default Markers</h3>
+<p>Default markers will be rendered unless a custom marker is specified. One can optionally adjust the
+color of the default marker by using the <code>pinColor</code> prop.</p>
+<p><a href="https://camo.githubusercontent.com/c9e1e645e2ef02fd43f511b2a764fe7eb2d6aef0/687474703a2f2f692e67697068792e636f6d2f78543737593070574b6d55556e6775484b302e676966" target="_blank"><img src="https://camo.githubusercontent.com/c9e1e645e2ef02fd43f511b2a764fe7eb2d6aef0/687474703a2f2f692e67697068792e636f6d2f78543737593070574b6d55556e6775484b302e676966" alt="" data-canonical-src="http://i.giphy.com/xT77Y0pWKmUUnguHK0.gif" style="max-width:100%;"></a> <a href="https://camo.githubusercontent.com/106f8bceb9242df2f730185ed29184ac97a94bdb/687474703a2f2f692e67697068792e636f6d2f336f365542666b334935385649775a6a56652e676966" target="_blank"><img src="https://camo.githubusercontent.com/106f8bceb9242df2f730185ed29184ac97a94bdb/687474703a2f2f692e67697068792e636f6d2f336f365542666b334935385649775a6a56652e676966" alt="" data-canonical-src="http://i.giphy.com/3o6UBfk3I58VIwZjVe.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-custom-callouts" class="anchor" href="#custom-callouts" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Custom Callouts</h3>
+<p>Callouts to markers can be completely arbitrary react views, similar to markers.  As a result, they
+can be interacted with like any other view.</p>
+<p>Additionally, you can fall back to the standard behavior of just having a title/description through
+the <code>&lt;Marker /&gt;</code>'s <code>title</code> and <code>description</code> props.</p>
+<p>Custom callout views can be the entire tooltip bubble, or just the content inside of the system
+default bubble.</p>
+<p><a href="https://camo.githubusercontent.com/8e4f0db4d0e615a994d1ee0aeda2806652a9d01c/687474703a2f2f692e67697068792e636f6d2f78543737584e6550476e4d49494470626e712e676966" target="_blank"><img src="https://camo.githubusercontent.com/8e4f0db4d0e615a994d1ee0aeda2806652a9d01c/687474703a2f2f692e67697068792e636f6d2f78543737584e6550476e4d49494470626e712e676966" alt="" data-canonical-src="http://i.giphy.com/xT77XNePGnMIIDpbnq.gif" style="max-width:100%;"></a> <a href="https://camo.githubusercontent.com/d76fd1619d2318f5eabaea0b90d23998cf8de781/687474703a2f2f692e67697068792e636f6d2f785437375964553048587279766f527161512e676966" target="_blank"><img src="https://camo.githubusercontent.com/d76fd1619d2318f5eabaea0b90d23998cf8de781/687474703a2f2f692e67697068792e636f6d2f785437375964553048587279766f527161512e676966" alt="" data-canonical-src="http://i.giphy.com/xT77YdU0HXryvoRqaQ.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-image-based-markers" class="anchor" href="#image-based-markers" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image-based Markers</h3>
+<p>Markers can be customized by just using images, and specified using the <code>image</code> prop.</p>
+<p><a href="https://camo.githubusercontent.com/07ba4862bac1d54376ad52a1845b8475891b7200/687474703a2f2f692e696d6775722e636f6d2f6d7a724f6a54522e706e67" target="_blank"><img src="https://camo.githubusercontent.com/07ba4862bac1d54376ad52a1845b8475891b7200/687474703a2f2f692e696d6775722e636f6d2f6d7a724f6a54522e706e67" alt="" data-canonical-src="http://i.imgur.com/mzrOjTR.png" style="max-width:100%;"></a></p>
+<h3><a id="user-content-draggable-markers-1" class="anchor" href="#draggable-markers-1" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Draggable Markers</h3>
+<p>Markers are draggable, and emit continuous drag events to update other UI during drags.</p>
+<p><a href="https://camo.githubusercontent.com/846e06601f841d3584c9837d301285b2ddef6e2f/687474703a2f2f692e67697068792e636f6d2f6c324a496d6e5a786476315762705166432e676966" target="_blank"><img src="https://camo.githubusercontent.com/846e06601f841d3584c9837d301285b2ddef6e2f/687474703a2f2f692e67697068792e636f6d2f6c324a496d6e5a786476315762705166432e676966" alt="" data-canonical-src="http://i.giphy.com/l2JImnZxdv1WbpQfC.gif" style="max-width:100%;"></a> <a href="https://camo.githubusercontent.com/a25326e6dcaa51f63eeecda39a973533ff303aac/687474703a2f2f692e67697068792e636f6d2f6c324a496876344a7836556778314547492e676966" target="_blank"><img src="https://camo.githubusercontent.com/a25326e6dcaa51f63eeecda39a973533ff303aac/687474703a2f2f692e67697068792e636f6d2f6c324a496876344a7836556778314547492e676966" alt="" data-canonical-src="http://i.giphy.com/l2JIhv4Jx6Ugx1EGI.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-lite-mode--android-" class="anchor" href="#lite-mode--android-" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lite Mode ( Android )</h3>
+<p>Enable lite mode on Android with <code>liteMode</code> prop. Ideal when having multiple maps in a View or ScrollView.</p>
+<p><a href="https://camo.githubusercontent.com/75767d8f066d97193fb4230114b3efc4579e6c4c/687474703a2f2f692e67697068792e636f6d2f715a326c416631387338396e612e676966" target="_blank"><img src="https://camo.githubusercontent.com/75767d8f066d97193fb4230114b3efc4579e6c4c/687474703a2f2f692e67697068792e636f6d2f715a326c416631387338396e612e676966" alt="" data-canonical-src="http://i.giphy.com/qZ2lAf18s89na.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-animated-region" class="anchor" href="#animated-region" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Animated Region</h3>
+<p>The MapView can accept an <code>MapView.AnimatedRegion</code> value as its <code>region</code> prop. This allows you to utilize the Animated API to control the map's center and zoom.</p>
+<div class="highlight highlight-source-js-jsx"><pre><span class="pl-k">import</span><span class="pl-smi"> MapView</span><span class="pl-k"> from</span> <span class="pl-s"><span class="pl-pds">'</span>react-native-maps<span class="pl-pds">'</span></span>;
+
+<span class="pl-en">getInitialState</span>() {
+  <span class="pl-k">return</span> {
+<span class="pl-c1">    <span class="pl-s">region</span>:</span><span class="pl-k"> new</span> <span class="pl-smi">MapView</span><span class="pl-k">.</span><span class="pl-en">AnimatedRegion</span>({
+<span class="pl-c1">      <span class="pl-s">latitude</span>:</span><span class="pl-c1"> LATITUDE</span>,
+<span class="pl-c1">      <span class="pl-s">longitude</span>:</span><span class="pl-c1"> LONGITUDE</span>,
+<span class="pl-c1">      <span class="pl-s">latitudeDelta</span>:</span><span class="pl-c1"> LATITUDE_DELTA</span>,
+<span class="pl-c1">      <span class="pl-s">longitudeDelta</span>:</span><span class="pl-c1"> LONGITUDE_DELTA</span>,
+    }),
+  };
+}
+
+<span class="pl-en">onRegionChange</span>(<span class="pl-smi">region</span>) {
+<span class="pl-c1">  this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">region</span><span class="pl-k">.</span><span class="pl-en">setValue</span>(<span class="pl-smi">region</span>);
+}
+
+<span class="pl-en">render</span>() {
+<span class="pl-k">  return</span> (
+    &lt;<span class="pl-ent"><span class="pl-c1">MapView.Animated</span></span>
+      <span class="pl-e">region</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">region</span></span><span class="pl-pse">}</span>
+      <span class="pl-e">onRegionChange</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">onRegionChange</span></span><span class="pl-pse">}</span>
+    /&gt;
+  );
+}</pre></div>
+<h3><a id="user-content-animated-marker-position" class="anchor" href="#animated-marker-position" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Animated Marker Position</h3>
+<p>Markers can also accept an <code>AnimatedRegion</code> value as a coordinate.</p>
+<div class="highlight highlight-source-js-jsx"><pre><span class="pl-en">getInitialState</span>() {
+  <span class="pl-k">return</span> {
+<span class="pl-c1">    <span class="pl-s">coordinate</span>:</span><span class="pl-k"> new</span> <span class="pl-smi">MapView</span><span class="pl-k">.</span><span class="pl-en">AnimatedRegion</span>({
+<span class="pl-c1">      <span class="pl-s">latitude</span>:</span><span class="pl-c1"> LATITUDE</span>,
+<span class="pl-c1">      <span class="pl-s">longitude</span>:</span><span class="pl-c1"> LONGITUDE</span>,
+    }),
+  };
+}
+
+<span class="pl-en">componentWillReceiveProps</span>(<span class="pl-smi">nextProps</span>) {
+<span class="pl-k">  if</span> (<span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">props</span><span class="pl-k">.</span><span class="pl-smi">coordinate</span><span class="pl-k"> !==</span><span class="pl-smi"> nextProps</span><span class="pl-k">.</span><span class="pl-smi">coordinate</span>) {
+<span class="pl-c1">    this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">coordinate</span><span class="pl-k">.</span><span class="pl-en">timing</span>({
+<span class="pl-k">      ...</span><span class="pl-smi">nextProps</span><span class="pl-k">.</span><span class="pl-smi">coordinate</span>,
+<span class="pl-c1">      <span class="pl-s">duration</span>:</span> <span class="pl-c1">500</span>
+    })<span class="pl-k">.</span><span class="pl-en">start</span>();
+  }
+}
+
+<span class="pl-en">render</span>() {
+<span class="pl-k">  return</span> (
+    &lt;<span class="pl-ent"><span class="pl-c1">MapView</span></span> <span class="pl-e">initialRegion</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-k">...</span></span><span class="pl-pse">}</span>&gt;
+      &lt;<span class="pl-ent"><span class="pl-c1">MapView.Marker.Animated</span></span> <span class="pl-e">coordinate</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">coordinate</span></span><span class="pl-pse">}</span> /&gt;
+    &lt;/<span class="pl-ent"><span class="pl-c1">MapView</span></span>&gt;
+  );
+}</pre></div>
+<h3><a id="user-content-take-snapshot-of-map" class="anchor" href="#take-snapshot-of-map" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Take Snapshot of map</h3>
+<div class="highlight highlight-source-js-jsx"><pre><span class="pl-en">getInitialState</span>() {
+  <span class="pl-k">return</span> {
+<span class="pl-c1">    <span class="pl-s">coordinate</span>:</span> {
+<span class="pl-c1">      <span class="pl-s">latitude</span>:</span><span class="pl-c1"> LATITUDE</span>,
+<span class="pl-c1">      <span class="pl-s">longitude</span>:</span><span class="pl-c1"> LONGITUDE</span>,
+    },
+  };
+}
+
+<span class="pl-en">takeSnapshot</span> () {
+<span class="pl-c">  <span class="pl-c">//</span> 'takeSnapshot' takes a config object with the</span>
+<span class="pl-c">  <span class="pl-c">//</span> following options</span>
+  <span class="pl-k">const</span> <span class="pl-smi">snapshot</span><span class="pl-k"> =</span><span class="pl-c1"> this</span><span class="pl-k">.</span><span class="pl-smi">refs</span><span class="pl-k">.</span><span class="pl-smi">map</span><span class="pl-k">.</span><span class="pl-en">takeSnapshot</span>({
+<span class="pl-c1">    <span class="pl-s">width</span>:</span> <span class="pl-c1">300</span>,<span class="pl-c">      <span class="pl-c">//</span> optional, when omitted the view-width is used</span>
+<span class="pl-c1">    <span class="pl-s">height</span>:</span> <span class="pl-c1">300</span>,<span class="pl-c">     <span class="pl-c">//</span> optional, when omitted the view-height is used</span>
+<span class="pl-c1">    <span class="pl-s">region</span>:</span> {<span class="pl-k">..</span>},<span class="pl-c">    <span class="pl-c">//</span> iOS only, optional region to render</span>
+<span class="pl-c1">    <span class="pl-s">format</span>:</span> <span class="pl-s"><span class="pl-pds">'</span>png<span class="pl-pds">'</span></span>,<span class="pl-c">   <span class="pl-c">//</span> image formats: 'png', 'jpg' (default: 'png')</span>
+<span class="pl-c1">    <span class="pl-s">quality</span>:</span> <span class="pl-c1">0.8</span>,<span class="pl-c">    <span class="pl-c">//</span> image quality: 0..1 (only relevant for jpg, default: 1)</span>
+<span class="pl-c1">    <span class="pl-s">result</span>:</span> <span class="pl-s"><span class="pl-pds">'</span>file<span class="pl-pds">'</span></span><span class="pl-c">   <span class="pl-c">//</span> result types: 'file', 'base64' (default: 'file')</span>
+  });
+<span class="pl-smi">  snapshot</span><span class="pl-k">.</span><span class="pl-en">then</span>((<span class="pl-smi">uri</span>) <span class="pl-k">=&gt;</span> {
+<span class="pl-c1">    this</span><span class="pl-k">.</span><span class="pl-en">setState</span>({<span class="pl-c1"> <span class="pl-s">mapSnapshot</span>:</span><span class="pl-smi"> uri</span> });
+  });
+}
+
+<span class="pl-en">render</span>() {
+<span class="pl-k">  return</span> (
+    &lt;<span class="pl-ent"><span class="pl-c1">View</span></span>&gt;
+      &lt;<span class="pl-ent"><span class="pl-c1">MapView</span></span> <span class="pl-e">initialRegion</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-k">...</span></span><span class="pl-pse">}</span> <span class="pl-e">ref</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>map<span class="pl-pds">"</span></span>&gt;
+        &lt;<span class="pl-ent"><span class="pl-c1">MapView.Marker</span></span> <span class="pl-e">coordinate</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">coordinate</span></span><span class="pl-pse">}</span> /&gt;
+      &lt;/<span class="pl-ent"><span class="pl-c1">MapView</span></span>&gt;
+      &lt;<span class="pl-ent"><span class="pl-c1">Image</span></span> <span class="pl-e">source</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1">{<span class="pl-c1"> <span class="pl-s">uri</span>:</span><span class="pl-c1"> this</span><span class="pl-k">.</span><span class="pl-smi">state</span><span class="pl-k">.</span><span class="pl-smi">mapSnapshot</span><span class="pl-k">.</span><span class="pl-smi">uri</span> }</span><span class="pl-pse">}</span> /&gt;
+      &lt;<span class="pl-ent"><span class="pl-c1">TouchableOpacity</span></span> <span class="pl-e">onPress</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-c1">this</span><span class="pl-k">.</span><span class="pl-smi">takeSnapshot</span></span><span class="pl-pse">}</span>&gt;
+        Take Snapshot
+      &lt;/<span class="pl-ent"><span class="pl-c1">TouchableOpacity</span></span>&gt;
+    &lt;/<span class="pl-ent"><span class="pl-c1">View</span></span>&gt;
+  );
+}</pre></div>
+<h3><a id="user-content-zoom-to-specified-markers" class="anchor" href="#zoom-to-specified-markers" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Zoom to Specified Markers</h3>
+<p>Pass an array of marker identifiers to have the map re-focus.</p>
+<p><a href="https://camo.githubusercontent.com/e91ca06a8a16d0ff58d4812b25874dc55873a2f2/687474703a2f2f692e67697068792e636f6d2f336f377145624f516e4f30796f58714b4a322e676966" target="_blank"><img src="https://camo.githubusercontent.com/e91ca06a8a16d0ff58d4812b25874dc55873a2f2/687474703a2f2f692e67697068792e636f6d2f336f377145624f516e4f30796f58714b4a322e676966" alt="" data-canonical-src="http://i.giphy.com/3o7qEbOQnO0yoXqKJ2.gif" style="max-width:100%;"></a> <a href="https://camo.githubusercontent.com/1a5688913a93b74e19e97b32b2666cc5f13d292a/687474703a2f2f692e67697068792e636f6d2f6c3431596472515a376d36447a346830632e676966" target="_blank"><img src="https://camo.githubusercontent.com/1a5688913a93b74e19e97b32b2666cc5f13d292a/687474703a2f2f692e67697068792e636f6d2f6c3431596472515a376d36447a346830632e676966" alt="" data-canonical-src="http://i.giphy.com/l41YdrQZ7m6Dz4h0c.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-zoom-to-specified-coordinates" class="anchor" href="#zoom-to-specified-coordinates" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Zoom to Specified Coordinates</h3>
+<p>Pass an array of coordinates to focus a map region on said coordinates.</p>
+<p><a href="https://cloud.githubusercontent.com/assets/1627824/18609960/da5d9e06-7cdc-11e6-811e-34e255093df9.gif" target="_blank"><img src="https://cloud.githubusercontent.com/assets/1627824/18609960/da5d9e06-7cdc-11e6-811e-34e255093df9.gif" alt="" style="max-width:100%;"></a></p>
+<h3><a id="user-content-troubleshooting" class="anchor" href="#troubleshooting" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Troubleshooting</h3>
+<h4><a id="user-content-my-map-is-blank" class="anchor" href="#my-map-is-blank" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>My map is blank</h4>
+<ul>
+<li>Make sure that you have <a href="/airbnb/react-native-maps/blob/master/docs/installation.md">properly installed</a> react-native-maps.</li>
+<li>Check in the logs if there is more informations about the issue.</li>
+<li>Try setting the style of the MapView to an absolute position with top, left, right and bottom values set.</li>
+</ul>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">const</span> <span class="pl-c1">styles</span> <span class="pl-k">=</span> <span class="pl-c1">StyleSheet</span>.<span class="pl-en">create</span>({
+  map<span class="pl-k">:</span> {
+    <span class="pl-k">...</span><span class="pl-c1">StyleSheet</span>.<span class="pl-smi">absoluteFillObject</span>,
+  },
+});</pre></div>
+<div class="highlight highlight-source-js-jsx"><pre>&lt;<span class="pl-ent"><span class="pl-c1">MapView</span></span>
+  <span class="pl-e">style</span><span class="pl-k">=</span><span class="pl-pse">{</span><span class="pl-s1"><span class="pl-smi">styles</span><span class="pl-k">.</span><span class="pl-smi">map</span></span><span class="pl-pse">}</span>
+<span class="pl-c">  <span class="pl-c">//</span> other props</span>
+/&gt;</pre></div>
+<h4><a id="user-content-inputs-dont-focus" class="anchor" href="#inputs-dont-focus" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Inputs don't focus</h4>
+<ul>
+<li>When inputs don't focus or elements don't respond to tap, look at the order of the view hierarchy, sometimes the issue could be due to ordering of rendered components, prefer putting MapView as the first component.</li>
+</ul>
+<p>Bad:</p>
+<div class="highlight highlight-source-js-jsx"><pre>&lt;<span class="pl-ent"><span class="pl-c1">View</span></span>&gt;
+  &lt;<span class="pl-ent"><span class="pl-c1">TextInput</span></span>/&gt;
+  &lt;<span class="pl-ent"><span class="pl-c1">MapView</span></span>/&gt;
+&lt;/<span class="pl-ent"><span class="pl-c1">View</span></span>&gt;</pre></div>
+<p>Good:</p>
+<div class="highlight highlight-source-js-jsx"><pre>&lt;<span class="pl-ent"><span class="pl-c1">View</span></span>&gt;
+  &lt;<span class="pl-ent"><span class="pl-c1">MapView</span></span>/&gt;
+  &lt;<span class="pl-ent"><span class="pl-c1">TextInput</span></span>/&gt;
+&lt;/<span class="pl-ent"><span class="pl-c1">View</span></span>&gt;</pre></div>
+<h2><a id="user-content-license" class="anchor" href="#license" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<pre><code> Copyright (c) 2015 Airbnb
+
+ Licensed under the The MIT License (MIT) (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    https://raw.githubusercontent.com/airbnb/react-native-maps/master/LICENSE
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+</code></pre>
+</article>
+  </div>
+
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      <div class="container site-footer-container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links float-right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2017 <span title="0.22362s from github-fe-dc3412d.cp1-iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+  
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/compat-8a4318ffea09a0cdb8214b76cf2926b9f6a0ced318a317bed419db19214c690d.js"></script>
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-e54e006049610cc297fe133f824c8784c712e170cb8c0c802aed2a767b2857e6.js"></script>
+    <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-ebcdd77cb42dcb5c1bb821e44245f31b9d389e204a831fc06469988b672f74ba.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>
+
